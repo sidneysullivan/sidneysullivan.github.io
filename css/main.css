@@ -5,8 +5,8 @@ body {
 h2 {
     margin: 0px auto;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding-top: 2px;
-    padding-bottom: 2px;
+    padding-top: 4px;
+    padding-bottom: 4px;
     border-left: 6px solid #D7D7D7;
     background-image: linear-gradient(#146869, #E3EEEF);
 }
