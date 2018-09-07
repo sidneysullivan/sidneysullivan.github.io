@@ -3,6 +3,7 @@ body {
     width: 70%;
 }
 h2 {
+    margin: 0px auto;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding-top: 2px;
     padding-bottom: 2px;
