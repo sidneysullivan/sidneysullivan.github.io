@@ -6,7 +6,7 @@ h2 {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding-top: 2px;
     padding-bottom: 2px;
-    border-left: 6px #D7D7D7;
+    border-left: 6px solid #333;
     background-image: linear-gradient(#146869, #E3EEEF);
 }
 nav ul, footer ul {
