@@ -55,12 +55,12 @@ ul.posts li {
   padding: 10px;
   font-size: 20px;
   width: 20px;
-  text-align: center;
+  text-align: left;
   text-decoration: none;
   margin: 5px 2px;
   border-radius: 30%;
   background: #216665;
-  color: white;
+  color: #FFFFFF;
 }
 
 /* Add a hover effect */
