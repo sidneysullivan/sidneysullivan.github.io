@@ -41,35 +41,51 @@
   		border: 1px solid #CCC;
   		border-radius: 1em;
 	}
-	input[type=text], select, textarea {
-   		width: 100%;
-    		padding: 12px;
-    		border: 1px solid #ccc;
-    		border-radius: 4px;
-    		box-sizing: border-box;
-    		margin-top: 6px;
-    		margin-bottom: 16px;
-    		resize: vertical;
+	form div + div {
+  		margin-top: 1em;
+	}
+	/* To make sure that all labels have the same size and are properly aligned */
+	label {
+  		display: inline-block;
+  		width: 90px;
+  		text-align: right;
 	}
 
-	input[type=submit] {
-    		background-color: #348584;
-    		color: #FFFFFF;
-    		padding: 12px 20px;
-    		border: none;
-    		border-radius: 4px;
-    		cursor: pointer;
+	input, textarea {
+  /* To make sure that all text fields have the same font settings
+     By default, textareas have a monospace font */
+  		font: 1em sans-serif;
+
+  /* To give the same size to all text fields */
+  		width: 300px;
+		box-sizing: border-box;
+
+  /* To harmonize the look & feel of text field border */
+  		border: 1px solid #999;
 	}
 
-	input[type=submit]:hover {
-    		background-color: #216665;
+	input:focus, textarea:focus {
+  /* To give a little highlight on active elements */
+  		border-color: #000;
 	}
 
-	.container2 {
-    		border-radius: 5px;
-    		background-color: #f2f2f2;
-    		padding: 20px;
-    		width: 100%; /* This width adjusts the size of the Contact Form box */
+	textarea {
+  /* To properly align multiline text fields with their labels */
+  		vertical-align: top;
+
+  /* To give enough room to type some text */
+  		height: 5em;
+	}
+
+	.button {
+  /* To position the buttons to the same position of the text fields */
+  		padding-left: 90px; /* same size as the label elements */
+	}
+
+	button {
+  /* This extra margin represent roughly the same space as the space
+     between the labels and their text fields */
+  		margin-left: .5em;
 	}
 	</style>		
 	</head>
