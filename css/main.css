@@ -61,6 +61,10 @@ ul.posts li {
     list-style: none;
 }
 
+img {
+    border-radius: 25%;
+}
+
 /* Style all font awesome icons */
 .fa {
   padding: 10px;
