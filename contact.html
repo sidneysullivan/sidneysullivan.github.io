@@ -69,11 +69,22 @@
     		border-radius: 5px;
     		width: 100%; /* This width adjusts the size of the Contact Form box */
 	}
-	</style>		
+	</style>
 	</head>
 	<body>
+		<?php
+      			if ($_POST['message']) {
+        			$message = $_POST['message'];
+        			$email = $_POST['email'];
+        			$name = $_POST['name'];
+        			$headers = "From: ".$name."<".$email.">";
+        			mail('sflsullivan@outlook.com', "Contact from RRR", $message, $headers)
+        			echo "Thanks for contacting me! I will get back to you soon.<br><br>- Sidney";
+      			}
+    		?>
+		
 		<div class="container2">
-		<form action="contact_response.php" method="post" name="frm_contact" id="frm_contact">
+		<form action="" method="post">
     			<input type="text" id="flname" name="firstlastname" placeholder="Name">
 
     			<input type="text" id="sender" name="senderemail" placeholder="Email">
