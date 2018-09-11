@@ -72,19 +72,6 @@
 	</style>
 	</head>
 	<body>
-		<?php
-      			if ($_POST['message']) {
-        			$message = $_POST['message'];
-        			$email = $_POST['email'];
-        			$name = $_POST['name'];
-        			$headers = "From: ".$name."<".$email.">";
-
-        			mail('sflsullivan@outlook.com', "Contact from RRR", $message, $headers);
-
-        			echo "Thanks for contacting me! I will get back to you soon.<br><br>- Sidney";
-      			}
-		?>
-		
 		<div class="container2">
 		<form action="" method="post">
     			<input type="text" id="flname" name="firstlastname" placeholder="Name">
