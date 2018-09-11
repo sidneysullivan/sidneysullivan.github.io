@@ -53,15 +53,11 @@
 ?>
 
 <form action="<?php $_SERVER['PHP_SELF']; ?>" method="post">
-  <fieldset>
-    <input type="text" id="flname" name="firstlastname" placeholder="Name">
-
-    			<input type="text" id="sender" name="senderemail" placeholder="Email">
-	  
-    			<input type="text" id="subject" name="messagesubject" placeholder="Subject">
-
-    			<textarea id="suject" name="sendermessage" placeholder="Message" style="height:130px"></textarea>
-
-    			<input type="submit" value="Submit">
- </fieldset>
+	<fieldset>
+    		<input type="text" id="flname" name="firstlastname" placeholder="Name">
+    		<input type="text" id="sender" name="senderemail" placeholder="Email">
+    		<input type="text" id="subject" name="messagesubject" placeholder="Subject">
+    		<textarea id="suject" name="sendermessage" placeholder="Message" style="height:130px"></textarea>
+    		<input type="submit" value="Submit">
+ 	</fieldset>
 </form>
