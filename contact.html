@@ -78,7 +78,9 @@
         			$email = $_POST['email'];
         			$name = $_POST['name'];
         			$headers = "From: ".$name."<".$email.">";
-        			mail('sflsullivan@outlook.com', "Contact from RRR", $message, $headers)
+
+        			mail('sflsullivan@outlook.com', "Contact from RRR", $message, $headers);
+
         			echo "Thanks for contacting me! I will get back to you soon.<br><br>- Sidney";
       			}
 		?>
