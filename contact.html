@@ -1,4 +1,12 @@
 <!DOCTYPE html>
+
+<?php
+  $to = "sflsullivan@outlook.com";
+  $headers = "From: $email_from \r\n";
+  $headers .= "Reply-To: $visitor_email \r\n";
+  mail($to,$email_subject,$email_body,$headers);
+ ?>
+
 <html>
 	<head>
 		<title>Sidney Sullivan</title>
@@ -73,7 +81,7 @@
 	</head>
 	<body>
 		<div class="container2">
-  		<form action="/action_page.php">
+		<form method="post" name="myemailform" action="form-to-email.php"
     			<input type="text" id="flname" name="firstlastname" placeholder="Name">
 
     			<input type="text" id="sender" name="senderemail" placeholder="Email">
@@ -87,7 +95,7 @@
 		</div>
 		<footer>
 		<ul>
-       			<li>&copy;2018 Sidney Sullivan</li>
+       			<li>&copy; 2018 Sidney Sullivan</li>
 			<li><a href="mailto:sflsullivan@outlook.com">email</a></li>
         		<li><a href="https://github.com/sidneysullivan">github.com/sidneysullivan</a></li>
       		</ul>
