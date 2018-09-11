@@ -7,7 +7,7 @@ header {
     background: linear-gradient(#146869, #E3EEEF);
 }
 h2 {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'Sans-Serif';
     padding-top: 10px;
     padding-bottom: 10px;
     border-left: 6px solid #D7D7D7;
@@ -32,7 +32,7 @@ a:hover {
 }
 h1 {
     font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'Sans-Serif';
 }
 p {
     font-size: 1.5em;
