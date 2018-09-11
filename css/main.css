@@ -7,13 +7,13 @@ header {
     padding: 10px 0px;
 }
 h2 {
-    font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'Sans-Serif';
+    font-family:'Helvetica Neue', 'Helvetica', 'Arial';
     border-left: 6px solid #D7D7D7;
     background-image: linear-gradient(#146869, #E3EEEF);
     margin: 0px;
 }
 nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family:'Helvetica', 'Arial';
     padding: 0px;
     list-style: none;
     font-weight: bold;
@@ -31,7 +31,7 @@ a:hover {
 }
 h1 {
     font-size: 3em;
-    font-family:'Helvetica Neue', 'Helvetica', 'Arial', 'Sans-Serif';
+    font-family:'Helvetica Neue', 'Helvetica', 'Arial';
 }
 p {
     font-size: 1.5em;
