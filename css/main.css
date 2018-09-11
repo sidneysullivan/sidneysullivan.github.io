@@ -3,10 +3,6 @@ body {
     width: 70%;
     font-family:'Helvetica Neue', 'Helvetica', 'Arial';
 }
-header {
-    margin: 8px
-    padding: 20px 0px;
-}
 h2 {
     font-family:'Helvetica Neue', 'Helvetica', 'Arial';
     border-left: 10px solid #BEBEBE;
