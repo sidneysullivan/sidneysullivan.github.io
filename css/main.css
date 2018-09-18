@@ -6,10 +6,10 @@ body {
 
 h2 {
     font-family:'Open Sans', 'PT Sans', sans-serif;
-    border-left: 10px solid #BEBEBE;
-    background-image: linear-gradient(#146869, #E3EEEF);
+    background: #413F42;
     margin: 0px;
-    padding: 14px 4px;
+    padding: 11px 4px;
+    color: #F3F3F3
 }
 
 nav ul, footer ul {
@@ -74,8 +74,8 @@ img {
   text-decoration: none;
   margin: 5px 2px;
   border-radius: 30%;
-  background: #216665;
-  color: #FFFFFF;
+  background: #413F42;
+  color: #F3F3F3;
 }
 
 /* Add a hover effect */
