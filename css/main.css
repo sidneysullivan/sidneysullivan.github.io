@@ -1,11 +1,11 @@
 body {
     margin: 0px auto;
     width: 70%;
-    font-family:'Helvetica Neue', 'Helvetica', 'Arial';
+    font-family:'Open Sans', 'PT Sans';
 }
 
 h2 {
-    font-family:'Helvetica Neue', 'Helvetica', 'Arial';
+    font-family:'Open Sans', 'PT Sans';
     border-left: 10px solid #BEBEBE;
     background-image: linear-gradient(#146869, #E3EEEF);
     margin: 0px;
@@ -13,7 +13,7 @@ h2 {
 }
 
 nav ul, footer ul {
-    font-family:'Helvetica', 'Arial';
+    font-family:'Open Sans', 'PT Sans';
     padding: 0px;
     list-style: none;
     font-weight: bold;
@@ -35,7 +35,7 @@ a:hover {
 
 h1 {
     font-size: 3em;
-    font-family:'Helvetica Neue', 'Helvetica', 'Arial';
+    font-family:'Open Sans', 'PT Sans';
 }
 
 p {
