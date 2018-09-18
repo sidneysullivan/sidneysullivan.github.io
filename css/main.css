@@ -65,24 +65,16 @@ a:hover {
     text-decoration: underline;
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #413F42;
-}
-
 li {
     float: left;
 }
 
 li a {
     display: block;
-    color: #413F42;
+    color: #F3F3F3;
     text-align: center;
     text-decoration: none;
-    margin-right: 5px;
+    padding: 12px 6px;
 }
 
 li a:hover:not(.active) {
