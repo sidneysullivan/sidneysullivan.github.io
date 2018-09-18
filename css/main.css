@@ -79,10 +79,10 @@ li {
 
 li a {
     display: block;
-    color: #F3F3F3;
+    color: #413F42;
     text-align: center;
-    padding: 12px 10px;
     text-decoration: none;
+    margin-right: 5px;
 }
 
 li a:hover:not(.active) {
