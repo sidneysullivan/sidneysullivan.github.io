@@ -44,21 +44,9 @@ nav ul {
     color: #413F42;
 }
 
-nav ul li {
-    display: inline;
-    margin-right: 5px;
-    color: #F3F3F3;
-}
-
-footer ul li {
-    display: inline;
-    margin-right: 5px;
-    color: #413F42;
-}
-
 a {
     text-decoration: none;
-    color: #F3F3F3;
+    color: #FCBF50;
 }
 
 a:hover {
@@ -74,31 +62,17 @@ li a {
     color: #F3F3F3;
     text-align: center;
     text-decoration: none;
-    padding: 12px 6px;
+    padding: 0px 10px;
 }
 
 li a:hover:not(.active) {
     background-color: #216666;
 }
 
-active {
-    background-color: #F3F3F3;
-    color: #413F42;
-}
-
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
     color: #413F42;
-}
-
-ul.posts { 
-    margin: 20px auto 40px; 
-    font-size: 1.5em;
-}
-
-ul.posts li {
-    list-style: none;
 }
 
 img {
