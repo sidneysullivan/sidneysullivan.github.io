@@ -117,28 +117,9 @@ img {
 .fa {
   font-size: 20px;
   width: 20px;
-  text-align: left;
+  text-align: center;
   text-decoration: none;
-  margin: 0px 0px;
-  color: #413F42;
-}
-
-/* Add a hover effect */
-.fa:hover {
-    opacity: 0.7;
-}
-
-img {
-    border-radius: 50%;
-}
-
-/* Style all font awesome icons */
-.fa {
-  font-size: 20px;
-  width: 20px;
-  text-align: left;
-  text-decoration: none;
-  margin: 0px 0px;
+  margin: 4px 0px;
   color: #413F42;
 }
 
