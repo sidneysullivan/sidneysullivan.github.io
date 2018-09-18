@@ -8,39 +8,8 @@ h4 {
     font-family:'Open Sans', 'PT Sans', sans-serif;
     background: #413F42;
     margin: 0px;
-    padding: 12px 4px;
+    padding: 12px 6px;
     color: #F3F3F3;
-}
-
-nav ul {
-    font-family:'Open Sans', 'PT Sans', sans-serif;
-    padding: 0px;
-    list-style: none;
-    font-weight: bold;
-    display: inline;
-    float: right;
-}
-
- footer ul {
-    font-family:'Open Sans', 'PT Sans', sans-serif;
-    padding: 0px;
-    list-style: none;
-    font-weight: bold;
-    display: inline;
-}
-
-nav ul li, footer ul li {
-    display: inline;
-    margin-right: 5px;
-}
-
-a {
-    text-decoration: none;
-    color: #999;
-}
-
-a:hover {
-    text-decoration: underline;
 }
 
 h1 {
@@ -56,10 +25,79 @@ p {
     padding-right: 5px
 }
 
+nav ul {
+    font-family:'Open Sans', 'PT Sans', sans-serif;
+    padding: 0px;
+    list-style: none;
+    font-weight: bold;
+    display: inline;
+    float: right;
+    color: #F3F3F3;
+}
+
+ footer ul {
+    font-family:'Open Sans', 'PT Sans', sans-serif;
+    padding: 0px;
+    list-style: none;
+    font-weight: bold;
+    display: inline;
+    color: #413F42
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 5px;
+    color: #F3F3F3;
+}
+
+footer ul li {
+    display: inline;
+    margin-right: 5px;
+    color: #413F42;
+}
+
+a {
+    text-decoration: none;
+    color: #F3F3F3;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #413F42;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #F3F3F3;
+    text-align: center;
+    padding: 12px 10px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #216666;
+}
+
+active {
+    background-color: #F3F3F3;
+    color: #413F42;
+}
+
 footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
-    color: #999
+    color: #413F42
 }
 
 ul.posts { 
@@ -69,6 +107,25 @@ ul.posts {
 
 ul.posts li {
     list-style: none;
+}
+
+img {
+    border-radius: 50%;
+}
+
+/* Style all font awesome icons */
+.fa {
+  font-size: 20px;
+  width: 20px;
+  text-align: left;
+  text-decoration: none;
+  margin: 0px 0px;
+  color: #413F42;
+}
+
+/* Add a hover effect */
+.fa:hover {
+    opacity: 0.7;
 }
 
 img {
