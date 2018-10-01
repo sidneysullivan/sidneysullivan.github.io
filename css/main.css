@@ -52,16 +52,6 @@ p {
   font-weight: bold;
 }
 
-nav ul {
-    font-family:'Open Sans', 'PT Sans', sans-serif;
-    padding: 0px;
-    list-style: none;
-    font-weight: bold;
-    display: inline;
-    float: right;
-    color: #F3F3F3;
-}
-
  footer ul {
     font-family:'Open Sans', 'PT Sans', sans-serif;
     padding: 0px;
