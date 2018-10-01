@@ -46,7 +46,7 @@ nav ul {
 
 footer {
     border-top: 1px solid #d5d5d5;
-    font-size: .8em;
+    font-size: 1em;
     color: #413F42;
 }
 
@@ -69,10 +69,6 @@ li a {
     text-align: center;
     text-decoration: none;
     padding: 0px 10px;
-}
-
-li a:hover:not(.active) {
-    background-color: #216666;
 }
 
 .active {
