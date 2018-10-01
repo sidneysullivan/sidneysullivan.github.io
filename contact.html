@@ -24,56 +24,111 @@
 	<head>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<style>
+	.container2 {
+	/* This width adjusts the size of the Contact Form box */
+    		border-radius: 5px;
+    		width: 100%; 
+	}
+
 	form {
-		font-family:'Helvetica', 'Arial', 'Sans-Serif';
-		/* Adjusts form to the left of the page */
-  		margin: 0 left;
-  		width: 400px;
-  		/* To see the outline of the form */
+  	/* To see the outline of the form */
   		padding: 1em;
   		border: 1px solid #CCC;
   		border-radius: 1em;
 	}
-	input[type=text], select, textarea {
-   		width: 100%;
-    		padding: 12px;
-    		border: 1px solid #ccc;
-    		border-radius: 4px;
-    		box-sizing: border-box;
-    		margin-top: 6px;
-    		margin-bottom: 16px;
-    		resize: vertical;
+    
+	textarea {
+		overflow: auto;
+    		vertical-align: top; 
 	}
-	input[type=submit] {
-    		background-color: #348584;
-    		color: #FFFFFF;
-    		padding: 12px 20px;
-    		border: none;
-    		border-radius: 4px;
-    		cursor: pointer;
+        
+	* {
+		box-sizing: border-box;
+    		-moz-box-sizing: border-box;
+    		-webkit-box-sizing: border-box; 
 	}
-	input[type=submit]:hover {
-    		background-color: #216665;
+
+	a {
+    		color: #359173;
+    		text-decoration: none;
+    		transition: color 0.3s ease-in-out; 
 	}
-	.container2 {
-    		border-radius: 5px;
-    		width: 100%; /* This width adjusts the size of the Contact Form box */
+
+	a:hover {
+		color: #2A735B; 
+	}
+
+	.center {
+    		text-align: center; 
+	}
+
+	.right {
+    		text-align: right; 
+	}
+
+	.caps {
+    		text-transform: uppercase; 
+	}
+
+	#formview textarea {
+    		height: 10.3em; 
+	}
+
+	input, textarea {
+    		font-size: 0.8em;
+    		font-family: 'proxima-nova-soft', sans-serif;
+    		border: 1px solid #ddd;
+    		background: #fff;
+    		padding: 0.9em;
+    		transition: all 0.3s ease-in-out;
+    		width: 100%; 
+	}
+    
+	input.code, textarea.code {
+    		font-family: "source-code-pro", monospace; 
+	}
+
+	input:focus, textarea:focus {
+    		border-color: #2A735B;
+    		outline: none;
+    		box-shadow: 0 0 5px 1px #359173; 
+	}
+
+	form input, form textarea {
+    		margin-bottom: 0.5em; 
+	}
+
+	button, a.button {
+  		font-size: 1em;
+  		text-transform: uppercase;
+  		font-weight: 600;
+  		border: 2px solid #359173;
+  		color: #359173;
+  		background: transparent;
+  		line-height: 1em;
+  		padding: 0.6em 0.9em;
+  		transition: all 0.3s ease-in-out; 
+	}
+  
+	button:hover, a.button:hover {
+    		border-color: #2A735B;
+    		color: #2A735B; 
+	}
+    
+		button:hover.emphasis, a.button:hover.emphasis {
+      		color: white;
+      		background-color: #2A735B; 
 	}
 	</style>
 	</head>
 	<body>
 		<div class="container2">
-		<form action="" method="post">
-    			<input type="text" id="flname" name="firstlastname" placeholder="Name">
-
-    			<input type="text" id="sender" name="senderemail" placeholder="Email">
-	  
-    			<input type="text" id="subject" name="messagesubject" placeholder="Subject">
-
-    			<textarea id="suject" name="sendermessage" placeholder="Message" style="height:130px"></textarea>
-
-    			<input type="submit" value="Submit">
-  		</form>
+		<form method="POST" action="https://formspree.io/sflsullivan@outlook.com">
+  			<input type="email" name="email" placeholder="E-mail">
+  			<input type="subject" name="subject" placeholder="Subject">
+  			<textarea name="message" placeholder="Message"></textarea>
+  			<button type="submit">SUBMIT</button>
+		</form>
 		</div><!-- /.container2 -->
     	</div><!-- /.blurb -->
 	</div><!-- /.container -->
