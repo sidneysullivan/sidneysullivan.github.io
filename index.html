@@ -38,6 +38,13 @@
   			width: 0%;
 			text-align:right;
 		}
+			
+		/* Clearfix (clear floats) */
+		.row::after {
+    			content: "";
+    			clear: both;
+    			display: table;
+		}	
 		</style>
 		<div class="row">
   		<div class="column left" style="background-color:#ffffff;">	
