@@ -20,7 +20,37 @@
 		</header>
 	<div class="container">
     	<div class="blurb">
-        	<h1>Say Hello</h1>
+		<style>
+		* {
+    			box-sizing: border-box;
+		}
+
+		/* Create two unequal columns that floats next to each other - But using left column only */
+		.column {
+    			float: left;
+		}
+
+		.left {
+  			width: 100%;
+		}
+
+		.right {
+  			width: 0%;
+			text-align:right;
+		}
+			
+		/* Clearfix (clear floats) */
+		.row::after {
+    			content: "";
+    			clear: both;
+    			display: table;
+		}	
+		</style>
+		<div class="row">
+  		<div class="column left" style="background-color:#ffffff;">	
+        		<h1>Let's Connect</h1>
+			<article>Have a data analysis project you'd like to discuss? Writing, copyediting or graphic request? Just want to <a href="mailto:sflsullivan@outlook.com">say hello</a>? Let's chat.</article>
+            		<br>
 	<head>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<style>
@@ -127,6 +157,7 @@
   			<button type="submit">SUBMIT</button>
 		</form>
 		</div><!-- /.container2 -->
+	</div><!-- /row -->	
     	</div><!-- /.blurb -->
 	</div><!-- /.container -->
 		<br>
