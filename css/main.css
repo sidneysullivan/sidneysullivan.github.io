@@ -97,6 +97,11 @@ img {
     border-radius: 50%;
 }
 
+.linkfont {
+    font-size: 16px; 
+    text-decoration: none; 
+}
+
 /* Style all font awesome icons */
 .fa {
   font-size: 20px;
