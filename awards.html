@@ -63,55 +63,63 @@
         				<br>
         				<li>2016 Regional Edward R. Murrow Award for Excellence in Innovation</li> 
         				<br><article><a href="http://www.ktuu.com/alaska360/" class="linkfont" target="_blank">KTUU-TV Alaska 360 Map</a></article>
-        				<br>
     				</ul>
 		</div><!-- /row -->
   		<div class="column right" style="background-color:#ffffff;">
-      		<br><br>
-			<style>
-			* {
-    				box-sizing: border-box;
-			}
+		<style>
+		* {
+    			box-sizing: border-box;
+		}
 
-			.column {
-    				float: left;
-    				width: 50%;
-    				padding: 5px;
-			}
+		.column {
+    			float: left;
+    			width: 50%;
+    			padding: 5px;
+		}
 
-			/* Clearfix (clear floats) */
-			.row::after {
-    				content: "";
-    				clear: both;
-    				display: table;
-			}
+		/* Clearfix (clear floats) */
+		.row::after {
+    			content: "";
+    			clear: both;
+    			display: table;
+		}
 				
-			/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-			@media screen and (max-width: 1900px) {
-    				.column {
-        				width: 100%;
-    				}
-			}  	
-				
-			</style>		
-			<div class="row">
-  			<br><br>
-  			<div class="column">
-    				<a href="https://public.tableau.com/profile/sidneysullivan#!/vizhome/AlaskaStateLegislatureSpecialSessionCosts/AlaskaStateLegislatureSpecialSessionCosts20th-30th" target="_blank"><img src="https://image.ibb.co/n4wBrz/Alaska_State_Legislature_Special_Session_Costs.jpg" alt="Alaska State Legislature Special Session Costs" style="width:80%;height:80%;border:0;border-radius:0%;float:left;"></a>
-  			</div>
-			<div class="column">
-    				<a href="https://public.tableau.com/profile/sidneysullivan#!/vizhome/2018ReportEconomicWell-BeingofAlaskaChildren/2018ReportEconomicWell-BeingofAlaskaChildren" target="_blank"><img src="https://image.ibb.co/ktYPBz/Economic_Well_Being_of_Alaska_Children_2018.jpg" alt="2018 Economic Well-Being of Alaska Children" style="width:80%;height:80%;border:0;border-radius:0%;float:left;"></a>
-  			</div>
-			</div><!-- /row --> 
-			<div class="row">
-			<div class="column">
-    				<a href="https://public.tableau.com/profile/sidneysullivan#!/vizhome/SouthCentralAlaskaParksandRec/SouthCentralAlaskaParksandRec" target="_blank"><img src="https://image.ibb.co/ccbNEK/Southcentral_Alaska_Park_and_Rec.jpg" alt="Southcentral Alaska Parks and Rec Map" style="width:80%;height:80%;border:0;border-radius:0%;float:left;"></a>
-  			</div>
-			<div class="column">
-    				<a href="https://public.tableau.com/profile/sidneysullivan#!/vizhome/AlaskaStateEmployeePayrollFY2016/AlaskaStateEmployeePayrollFY2016" target="_blank"><img src="https://image.ibb.co/ehcHWz/Alaska_State_Employee_Payroll_FY_2016.jpg" alt="Alaska State Employee Payroll (FY 2016)" style="width:80%;height:80%;border:0;border-radius:0%;float:left;"></a>
-  			</div>
-		</div><!-- /row -->	
-	<br><br>		
+		/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+		@media screen and (max-width: 1900px) {
+    			.column {
+        			width: 100%;
+    			}
+		}  
+                
+ 		/* slideshow  */
+		@keyframes slideshow {
+		10% {left: 0;}
+		20% {left: 0;}
+		30% {left: -100%;}
+		40% {left: -100%;}
+		50% {left: -200%;}
+		60% {left: -200%;}
+		70% {left: -300%;}
+		80% {left: -300%;}
+		90% {left: -400%;}
+		100% {left: -400%}
+		}
+
+		#slider{overflow:hidden;width:100%;margin:5px auto; border: 5px solid transparent;border-radius: 0px;}
+		#slider figure img{width:20%;float:center; border-radius: 5%;}
+		#slider figure{position:relative;width:500%;margin:0;left:0;text-align:left;animation:20s slideshow infinite}
+                @media screen and (max-width: 1900px) {#slider {overflow: hidden; width: 100%; margin: 0 auto;}} 
+		</style>		
+
+    		<div id="slider">
+        		<figure>
+            			<img src="https://image.ibb.co/n4wBrz/Alaska_State_Legislature_Special_Session_Costs.jpg">
+            			<img src="https://image.ibb.co/ktYPBz/Economic_Well_Being_of_Alaska_Children_2018.jpg">
+            			<img src="https://image.ibb.co/ehcHWz/Alaska_State_Employee_Payroll_FY_2016.jpg">
+            			<img src="https://image.ibb.co/ccbNEK/Southcentral_Alaska_Park_and_Rec.jpg">
+        		</figure>
+			<br>
+		</div></div>
     	</div><!-- /.blurb -->
 	</div><!-- /.container -->
 		<footer>
