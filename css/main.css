@@ -55,6 +55,8 @@ p {
 .navbar .active {
     background: #D09D41;
     color: #413F42;
+    margin: 0;
+    padding: 0;
 }
 
  footer ul {
